@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ccc69a;
+}
+header .logo
+{
+  margin-left: 230px;
+}
+header .header-contacts 
+{
+  margin-left: 230px;
+}
+.header-contacts img
+{
+  margin-right: 10px;
+}
+header .header-contacts
+{
+  margin-right: 250px;
+}
+
+.name
+{
+  text-align: center;
+  background-size: 100%;
+}
+.first 
+{
+ position:relative; 
+ margin:0 auto;
+ border-radius: 10px;
+}
+.second
+{
+ position:relative; 
+ margin:0 auto;
+ border-radius: 10px;
+}
+.dessert
+{
+ position:relative; 
+ margin:0 auto;
+ border-radius: 10px;
+}
+.hahlik
+{
+ position:relative; 
+ margin:0 auto;
+ border-radius: 10px;
+}
+div.first
+{
+  height:200px;
+  background-image:url(../img/9-3-1300x827.jpg);
+  background-size:cover;
+  margin:0 auto;
+}
+div.second
+{
+  height:200px;
+  background-image:url(../img/dha417pivi80sc4cgoso44okw.jpg);
+  background-size:cover;
+  margin:0 auto;
+}
+div.dessert
+{
+  height:200px;
+  background-image:url(../img/ob-05_1568611223.jpg);
+  background-size:cover;
+}
+.events-item p
+{
+ color:rgba(255,255,255, 1); 
+ background-color:rgba(0,0,0,0.4);
+  border-radius:10px;
+ padding:10px;
+ text-align:justify;
+ line-height:28px;
+ bottom:0;
+ position:absolute; 
+ margin:0;
+}
+h2
+{
+  padding-top: 20px;
+  text-align: center;
+  color: rgba(255,255,255);
+}
+div.hahlik
+{
+  height:200px;
+  background-image:url(../img/unnamed.jpg);
+  background-size:cover;
+}
+.name
+{
+  margin-top: 20px;
+}
+.features-list1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 16px;
+  font-family: cursive;
+  margin-left: 230px;
+  margin-right: 160px;
+}
+
+.features-list1 li {
+
+  width: 400px;
+  margin-right: 80px;
+  padding-top: 100px;
+}
+
+
+.features-list1 li::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+.features-list2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 16px;
+  margin-left: 230px;
+  margin-right: 160px;
+}
+
+.features-list2 li {
+  width: 400px;
+  margin-right: 80px;
+  padding-top: 100px;
+}
+
+
+.features-list2 li::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
+footer {
+  margin-top: 40px;
+  background-color: #1b1545;
+  text-align: center;
+}
+.footer-wrap {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #bbbbff;
+  margin: 0 auto;
+
+}
+
+.first:hover 
+{
+background: url(../img/9-3-1300x8272.jpg); /* Путь к файлу с заменяемым рисунком  */
+background-size: cover;
+}
+.second:hover 
+{
+background: url(../img/dha417pivi80sc4cgoso44okw2.jpg); /* Путь к файлу с заменяемым рисунком  */
+background-size: cover;
+}
+.dessert:hover 
+{
+background: url(../img/ob-05_15686112232.jpg); /* Путь к файлу с заменяемым рисунком  */
+background-size: cover;
+}
+.hahlik:hover 
+{
+background: url(../img/unnamed2.jpg); /* Путь к файлу с заменяемым рисунком  */
+background-size: cover;
+}
+
+
+
+.first::before,
+.first::after {
+  position: absolute;
+  content: "";
+}
+
+.first::after {
+  width: 135px;
+  height: 135px;
+  background-image: url("../img/pel.png");
+   background-repeat:  no-repeat;
+   background-size: 100px;
+  top: -70px;
+  right: 320px;
+}
+.second::before,
+.second::after {
+  position: absolute;
+  content: "";
+}
+.second::before {
+  width: 135px;
+  height: 135px;
+  background-image: url("../img/sha.png");
+   background-repeat:  no-repeat;
+   background-size: 130px;
+   transform: rotate(-60deg);
+  top: -70px;
+  right: -70px;
+}
+.dessert::before,
+.dessert::after {
+  position: absolute;
+  content: "";
+}
+
+.dessert::after {
+  width: 135px;
+  height: 135px;
+  background-image: url("../img/sup.png");
+   background-repeat:  no-repeat;
+   background-size: 100px;
+  top: -70px;
+  right: 320px;
+}
+.hahlik::before,
+.hahlik::after {
+  position: absolute;
+  content: "";
+}
+.hahlik::before {
+  width: 135px;
+  height: 135px;
+  background-image: url("../img/hahlik.png");
+   background-repeat:  no-repeat;
+   background-size: 130px;
+   transform: rotate(30deg);
+  top: -50px;
+  right: -50px;
+}
